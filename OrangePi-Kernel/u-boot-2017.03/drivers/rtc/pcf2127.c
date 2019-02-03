@@ -4,7 +4,7 @@
  */
 
 /*	#define	DEBUG	*/
-//need to be fixed
+//need to be fixed according to the makefile
 #include <common.h>
 #include <command.h>
 #include <dm.h>
