@@ -4,6 +4,7 @@
  * Rex G. Feany <rfeany@zumanetworks.com>
  *
  */
+//the chip will cost 1yen
 
 #include <common.h>
 #include <command.h>
