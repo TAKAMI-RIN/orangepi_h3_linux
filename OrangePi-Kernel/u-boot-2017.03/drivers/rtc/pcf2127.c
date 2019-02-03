@@ -4,7 +4,7 @@
  */
 
 /*	#define	DEBUG	*/
-
+//need to be fixed
 #include <common.h>
 #include <command.h>
 #include <dm.h>
