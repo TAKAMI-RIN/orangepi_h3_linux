@@ -1,4 +1,8 @@
 # Build H3 image For OrangePi
+# This is gonna be an unoffical version of uboot 4 allwinerH3.
+# The RTC and the EtherNet will be modified.
+# Start date:2019-02-03
+# TOOSAKA & LQresier
 
 The OrangePi-Kernel contains Linux kernel sources (3.4.113 and 4.9) adapted for OrangePi H3 boards
 
