@@ -13,7 +13,7 @@
 #if defined(CONFIG_CMD_DATE)
 
 /* GPP Pins */
-#define DATA		0x200
+#define DATA		0x200                     //where is this?
 #define SCLK		0x400
 #define RST		0x800
 
