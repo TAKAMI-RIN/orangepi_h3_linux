@@ -1,4 +1,11 @@
-This is the Hardware part for this chip.
-Some RTC relatived features need this.
+#This is the Hardware part for this chip.
+#Some RTC relatived features need this.
+#Used just for reference.
 
-TOOSAKA
+#___________    .__                    __            
+#\__    ___/___ |  |__   ___________  |  | _______   
+#  |    | /  _ \|  |  \ /  ___/\__  \ |  |/ /\__  \  
+#  |    |(  <_> )   Y  \\___ \  / __ \|    <  / __ \_
+#  |____| \____/|___|  /____  >(____  /__|_ \(____  /
+#                    \/     \/      \/     \/     \/ 
+#
