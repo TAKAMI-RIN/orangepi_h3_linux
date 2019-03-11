@@ -24,9 +24,9 @@ next_work = 2
 ;storage_type	= boot medium, 0-nand, 1-card0, 2-card2, -1(defualt)auto scan
 ;----------------------------------------------------------------------------------
 [target]
-#boot_clock   	= 1008
+boot_clock   	= 1008
 #boot_clock   	= 1200
-boot_clock   	= 1536
+#boot_clock   	= 1536
 storage_type    = -1
 
 ;---------------------------------------------------------------------------------
@@ -496,10 +496,10 @@ disp_init_enable         = 1
 disp_mode                = 0
 
 screen0_output_type      = 3
-screen0_output_mode      = 31
+screen0_output_mode      = 10
 
 screen1_output_type      = 3
-screen1_output_mode      = 31
+screen1_output_mode      = 10
 
 fb0_format               = 0
 fb0_width                = 0
@@ -522,7 +522,7 @@ hdmi_power             = "vcc-hdmi-18"
 ; set to 0 for hdmi->dvi compatibility
 ;-------------------------------------
 ;hdcp_enable            = 0
-hdmi_cts_compatibility = 1
+;hdmi_cts_compatibility = 1
 
 [tv_para]
 tv_used				= 1
@@ -826,8 +826,8 @@ usb_used            = 1
 usb_port_type       = 1
 ;usb_detect_type     = 1
 usb_detect_type     = 0
-usb_id_gpio         = port:PG12<0><1><default><default>
-usb_det_vbus_gpio   = port:PG12<0><1><default><default>
+usb_id_gpio         =
+usb_det_vbus_gpio   =
 usb_drv_vbus_gpio   = port:PL02<1><0><default><0>
 usb_host_init_state = 1
 usb_restrict_gpio   =
@@ -843,7 +843,7 @@ usb_not_suspend     = 0
 ;--------------------------------
 [usbc1]
 usb_used            = 1
-usb_drv_vbus_gpio   = 
+usb_drv_vbus_gpio   = port:PG13<1><0><default><0>
 usb_restrict_gpio   =
 usb_host_init_state = 1
 usb_restric_flag    = 0
@@ -855,7 +855,7 @@ usb_not_suspend     = 0
 ;---       USB2控制标志
 ;--------------------------------
 [usbc2]
-usb_used            = 1
+usb_used            = 0
 usb_drv_vbus_gpio   = 
 usb_restrict_gpio   =
 usb_host_init_state = 1
@@ -868,10 +868,10 @@ usb_not_suspend     = 0
 ;---       USB3控制标志
 ;--------------------------------
 [usbc3]
-usb_used            = 1
+usb_used            = 0
 usb_drv_vbus_gpio   =
 usb_restrict_gpio   =
-usb_host_init_state = 1
+usb_host_init_state = 0
 usb_restric_flag    = 0
 usb_regulator_io    = "nocare"
 usb_regulator_vol   = 0
@@ -939,9 +939,9 @@ lpo_use_apclk       =
 ;                     0: not used, 1: used
 ;--------------------------------------------------------------------------------
 [wifi_para]
-wifi_used             = 0
+wifi_used             = 1
 wifi_sdc_id           = 1
-wifi_usbc_id          = 5
+wifi_usbc_id          = 2
 wifi_usbc_type        = 1
 wl_reg_on             = port:PL07<1><default><default><0>
 wl_host_wake          = port:PG10<0><default><default><0> 
