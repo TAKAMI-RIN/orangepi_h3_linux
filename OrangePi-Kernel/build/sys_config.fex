@@ -24,9 +24,9 @@ next_work = 2
 ;storage_type	= boot medium, 0-nand, 1-card0, 2-card2, -1(defualt)auto scan
 ;----------------------------------------------------------------------------------
 [target]
-#boot_clock   	= 1008
+boot_clock   	= 1008
 #boot_clock   	= 1200
-boot_clock   	= 1536
+#boot_clock   	= 1536
 storage_type    = -1
 
 ;---------------------------------------------------------------------------------
@@ -402,7 +402,7 @@ ths_used            = 1
 ths_trip1_count     = 5
 ths_trip1_0         = 75
 ths_trip1_1         = 85
-ths_trip1_2         = 90
+ths_trip1_2         = 92
 ths_trip1_3         = 100
 ths_trip1_4         = 105
 ths_trip1_5         = 0
@@ -496,10 +496,10 @@ disp_init_enable         = 1
 disp_mode                = 0
 
 screen0_output_type      = 3
-screen0_output_mode      = 31
+screen0_output_mode      = 10
 
 screen1_output_type      = 3
-screen1_output_mode      = 31
+screen1_output_mode      = 10
 
 fb0_format               = 0
 fb0_width                = 0
